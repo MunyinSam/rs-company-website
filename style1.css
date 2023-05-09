@@ -6,9 +6,6 @@
 }
 
 
-    
-
-
 .header{
     min-height: 100vh;
     width: 100%;
@@ -101,7 +98,7 @@ nav .fa{
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
-        transform: translate(10%,-11%);
+        transform: translate(12%,-11%);
     }
     .text-box p{
         transform: translate(10%,-11%);
@@ -132,7 +129,8 @@ nav .fa{
         padding: 30px;
     }
     .hero-btn{
-        transform: translate(10%,-11%);
+        transform: translate(16%,0);
+        margin-top: 20px;
     }
 }
 
@@ -320,20 +318,18 @@ h3{
     width: 44%;
     padding: 5px;
   }
-  
+ 
   /* Clear floats after image containers */
 .row2::after {
     content: "";
     clear: both;
     display: table;
   }
-.row2 img{
-    image-rendering: optimizeQuality;
-}
 
 #smaller1{
     font-size: 16px;
 }
+
 
 /*-----------------Call To Action----------------*/
 
@@ -357,6 +353,10 @@ h3{
     .cta h1{
         font-size: 24px;
     }
+    .cta button{
+        transform: translate(-3%,0);
+    }
+
 }
 
 /*-------------Footer-----------*/
@@ -376,4 +376,3 @@ h3{
     cursor: pointer;
     padding: 18px 0;
 }
-
